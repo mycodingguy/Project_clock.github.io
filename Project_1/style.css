@@ -1,0 +1,54 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url('https://media.npr.org/assets/img/2023/01/10/being-late-npr_wide-3592ae0a00d5488af0c4d701f708e7dafe2ed74b-s800-c85.webp');
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    /* background-blend-mode:exclusion; */
+}
+form
+{
+    margin: 5px;
+    margin-left: 50vw;
+}.
+.btn btn-outline-success
+{
+    margin-right: -20vw;
+}
+.container
+{
+    margin-top: 4vh;
+}
+.jumbotron
+{
+    background-color:rgba(153, 155, 61, 0.781);
+}
+a
+{
+    color: black;
+    margin: 0px 20px;
+    margin-left: -10px;
+}
+@media(max-width:1000px)
+{
+    body
+    {
+        background-image: url('https://media.npr.org/assets/img/2023/01/10/being-late-npr_wide-3592ae0a00d5488af0c4d701f708e7dafe2ed74b-s800-c85.webp');
+        background-repeat: no-repeat;
+        background-size: 200vh;
+    }
+}
+
+@media(max-width:600px)
+{
+    body
+    {
+        background-image: url('https://media.npr.org/assets/img/2023/01/10/being-late-npr_wide-3592ae0a00d5488af0c4d701f708e7dafe2ed74b-s800-c85.webp');
+        background-repeat:repeat-y;
+        background-size: auto;
+    }
+}
